@@ -14,7 +14,7 @@ public:
 
    //! errorcode
    int errcode() const {
-       return mErrcode();
+       return mErrcode;
    }
 
    //! error type (name)
@@ -46,7 +46,7 @@ protected:
   }
 
   int mErrcode;
-  char *mErrtype;
+  const char *mErrtype;
 
   std::string message;
 };

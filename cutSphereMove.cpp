@@ -2,7 +2,7 @@
  * test for the function CreateSkin
  * creates a standard curve wich is a part of a circle (arc)
  * output is writen to a test.asc, and can be read by for example matlab
- * /
+ */
 
 #include <string>
 
